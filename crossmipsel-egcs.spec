@@ -21,7 +21,7 @@ Patch8:		egcs-1.0.2-haifa.patch
 Patch9:		egcs-1.0.1-objcbackend.patch
 Patch10:	egcs-1.0.2-mips.patch
 Requires:	crossmipsel-binutils >= 2.8.1
-BuildRoot:      %{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/opt/mipsel
 %define         _mandir         %{_prefix}/man
@@ -43,8 +43,8 @@ noch keine Anwendungsprogramme.
 
 %description -l pl
 Ten pakiet zawiera cross-egcs pozwalaj±cy na robienie binariów do
-uruchamiania na little-endian MIPS (architektura "mipsel-linux")
-na maszynach i386. Aktualnie jest to tylko kompilator pierszego etapu,
+uruchamiania na little-endian MIPS (architektura "mipsel-linux") na
+maszynach i386. Aktualnie jest to tylko kompilator pierszego etapu,
 którym mo¿na skompilowaæ kernel, ale nie aplikacje.
 
 %prep
@@ -68,7 +68,7 @@ cd gcc
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d		$RPM_BUILD_ROOT{/etc/profile.d,/opt/mipsel}
+install -d $RPM_BUILD_ROOT{/etc/profile.d,%{_prefix}}
 
 install %{SOURCE1}	$RPM_BUILD_ROOT/etc/profile.d/
 
