@@ -6,8 +6,6 @@ Version:	1.0.2
 Release:	1
 License:	GPL
 Group:		Development/Languages
-Group(de):	Entwicklung/Sprachen
-Group(pl):	Programowanie/Jêzyki
 Source0:	ftp://alge.anart.no/pub/devel/egcs-%{version}.tar.gz
 #Source0:	ftp://gcc.gnu.org/pub/gcc/releases/egcs-1.1.2/egcs-1.1.2.tar.bz2
 Source1:	mipsel-cross-egcs.sh
