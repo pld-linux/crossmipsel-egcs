@@ -25,7 +25,7 @@ Requires:	crossmipsel-binutils >= 2.8.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/opt/mipsel
-%define         _infodir        %{_prefix}/info
+%define		_infodir	%{_prefix}/info
 
 %description
 This package contains a cross-egcs which allows the creation of
