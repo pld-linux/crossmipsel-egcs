@@ -7,7 +7,7 @@ Release:	1
 License:	GPL
 Group:		Development/Languages
 #Source0:	ftp://gcc.gnu.org/pub/gcc/releases/egcs-1.1.2/egcs-1.1.2.tar.bz2
-Source0:	ftp://ftp.icm.edu.pl/vol/rzm3/gcc/old-releases/egcs/egcs-1.0.2.tar.bz2
+Source0:	ftp://gcc.gnu.org/pub/gcc/old-releases/egcs/egcs-1.0.2.tar.bz2
 # Source0-md5:	b3e6777ae0f03534a02a485b0841e514
 Source1:	mipsel-cross-egcs.sh
 Patch0:		egcs-1.0.2-libio.patch
