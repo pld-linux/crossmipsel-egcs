@@ -24,7 +24,6 @@ Requires:	crossmipsel-binutils >= 2.8.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/opt/mipsel
-%define         _mandir         %{_prefix}/man
 %define         _infodir        %{_prefix}/info
 
 %description
