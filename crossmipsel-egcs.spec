@@ -44,7 +44,7 @@ noch keine Anwendungsprogramme.
 %description -l pl
 Ten pakiet zawiera cross-egcs pozwalaj±cy na robienie binariów do
 uruchamiania na little-endian MIPS (architektura "mipsel-linux") na
-maszynach i386. Aktualnie jest to tylko kompilator pierszego etapu,
+maszynach i386. Aktualnie jest to tylko kompilator pierwszego etapu,
 którym mo¿na skompilowaæ j±dro Linuksa, ale nie aplikacje.
 
 %prep
