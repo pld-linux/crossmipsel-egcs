@@ -1,6 +1,6 @@
 Summary:	Cross-egcs for mipsel-linux on i386 systems
 Summary(de):	Cross-egcs zur Erzeugung von little-Endian MIPS-Code auf i386
-Summary(pl):	egcs kroskompiluj±cy na mipsel-linux
+Summary(pl):	egcs kompiluj±cy skro¶nie na mipsel-linux
 Name:		crossmipsel-egcs
 Version:	1.0.2
 Release:	1
@@ -45,7 +45,7 @@ noch keine Anwendungsprogramme.
 Ten pakiet zawiera cross-egcs pozwalaj±cy na robienie binariów do
 uruchamiania na little-endian MIPS (architektura "mipsel-linux") na
 maszynach i386. Aktualnie jest to tylko kompilator pierszego etapu,
-którym mo¿na skompilowaæ kernel, ale nie aplikacje.
+którym mo¿na skompilowaæ j±dro Linuksa, ale nie aplikacje.
 
 %prep
 %setup -q -n egcs-1.0.2
