@@ -95,4 +95,4 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/gcc-lib/mipsel-linux/egcs-2.90.27/specs
 %{_libdir}/gcc-lib/mipsel-linux/egcs-2.90.27/*.[oa]
 %{_mandir}/man*/*
-%{_infodir}/*
+%{_infodir}/*.info*
